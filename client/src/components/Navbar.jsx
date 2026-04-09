@@ -168,7 +168,7 @@ export const Navbar = () => {
 
         {/* GitHub Button */}
         <motion.a
-          href="https://github.com/sahilmd01" 
+          href="https://github.com/Karthickmd01" 
           target="_blank"
           rel="noopener noreferrer"
           className={cn(

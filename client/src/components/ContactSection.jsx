@@ -186,7 +186,7 @@ export const ContactSection = () => {
                   {
                     icon: Github,
                     label: "GitHub",
-                    url: "https://github.com/Sahilmd01",
+                    url: "https://github.com/Karthickmd01",
                   },
                   {
                     icon: Instagram,

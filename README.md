@@ -78,7 +78,7 @@ Feel free to connect with me through the Contact section on the site or via [Lin
 
 ---
 
-**Made with ❤️ by Sahil  using React, Vite & Tailwind CSS**
+**Made with ❤️ by Karthick  using React, Vite & Tailwind CSS**
 
 
 ## 📬 here is privious homepage.. -----
@@ -187,7 +187,7 @@ export const HeroSection = () => {
               className="text-primary inline-block ml-3 relative"
               variants={itemVariants}
             >
-              Sahil
+              Karthick
               <motion.span 
                 className="absolute -bottom-2 left-0 h-1 bg-primary w-full"
                 initial={{ scaleX: 0 }}
@@ -348,3 +348,5 @@ export const HeroSection = () => {
   );
 };
    ```
+#   M Y - P O R T F O L I O  
+ 
