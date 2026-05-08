@@ -176,7 +176,7 @@ export const ContactSection = () => {
                   {
                     icon: Linkedin,
                     label: "LinkedIn",
-                    url: "www.linkedin.com/in/karthick-r-4a1948389",
+                    url: "https://www.linkedin.com/in/karthick-r-4a1948389?utm_source=share_via&utm_content=profile&utm_medium=member_android",
                   },
                   {
                     icon: Twitter,
