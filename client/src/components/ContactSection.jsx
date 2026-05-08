@@ -151,7 +151,7 @@ export const ContactSection = () => {
                     href="tel:+919315145594"
                     className="text-sm sm:text-base font-medium hover:text-primary transition-colors"
                   >
-                    +91 9315145594
+                    +91 6369966927
                   </a>
                 </div>
               </div>
@@ -163,7 +163,7 @@ export const ContactSection = () => {
                 <div>
                   <p className="text-xs sm:text-sm text-muted-foreground">Location</p>
                   <span className="text-sm sm:text-base font-medium">
-                    Bengaluru, Karnataka India
+                    Coimbatore, TamilNadu, India
                   </span>
                 </div>
               </div>
@@ -176,7 +176,7 @@ export const ContactSection = () => {
                   {
                     icon: Linkedin,
                     label: "LinkedIn",
-                    url: "https://www.linkedin.com/in/codewithkinu",
+                    url: "www.linkedin.com/in/karthick-r-4a1948389",
                   },
                   {
                     icon: Twitter,
@@ -186,7 +186,7 @@ export const ContactSection = () => {
                   {
                     icon: Github,
                     label: "GitHub",
-                    url: "https://github.com/Karthickmd01",
+                    url: "https://github.com/karthick20022311",
                   },
                   {
                     icon: Instagram,
