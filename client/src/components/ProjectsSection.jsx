@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 const projects = [
   {
     id: 8,
-    title: "GenAxis",
+    title: "Data Driven Stock Analysis",
     category: "AI SaaS ",
     description: "AI saas webapp build with PERN stack and Intigrated Gemini . OPEN SOURCE ",
     image: "/projects/project8.png",
