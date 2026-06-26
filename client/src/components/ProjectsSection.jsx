@@ -23,7 +23,7 @@ const projects = [
     title: "imdb-2024-data-scraping-visualization",
     category: "Healthcare SaaS",
     description: "Hospital management platform with multi-role access, patient tracking, and billing systems.",
-    image: "/projects/project7.png",
+    image: "/images/imdb-project.png",
     video: "/projects/videos/nauracare-demo.mp4",
     tags: ["React", "Node.js", "MongoDB", "Stripe", "JWT Auth"],
     demoUrl: "https://imdb-2024-data-scraping-visualization-nqp2qn62xzuwwysdfx7wsy.streamlit.app/",

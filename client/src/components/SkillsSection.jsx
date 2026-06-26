@@ -104,7 +104,7 @@ const SkillBar = ({ level }) => (
 
 const InfiniteScrollSkills = ({ skills }) => {
   const duplicatedSkills = [...skills, ...skills, ...skills];
-  
+
   return (
     <div className="overflow-hidden py-8">
       <motion.div
@@ -121,7 +121,7 @@ const InfiniteScrollSkills = ({ skills }) => {
           </div>
         ))}
       </motion.div>
-      
+
       <motion.div
         className="flex gap-8"
         animate={{ x: ["-100%", "0%"] }}
@@ -142,14 +142,14 @@ const InfiniteScrollSkills = ({ skills }) => {
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
-  const filteredSkills = skills.filter(skill => 
+  const filteredSkills = skills.filter(skill =>
     activeCategory === "all" || skill.category === activeCategory
   );
 
   return (
     <section id="skills" className="py-28 px-4 bg-gradient-to-br from-background via-secondary/5 to-background">
       <div className="container mx-auto max-w-6xl">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           className="text-center mb-20"
@@ -167,11 +167,10 @@ export const SkillsSection = () => {
             <motion.button
               key={category.id}
               onClick={() => setActiveCategory(category.id)}
-              className={`px-6 py-2.5 rounded-full font-medium border border-transparent hover:shadow-lg ${
-                activeCategory === category.id
+              className={`px-6 py-2.5 rounded-full font-medium border border-transparent hover:shadow-lg ${activeCategory === category.id
                   ? `${category.color} text-white shadow-md`
                   : "bg-secondary/50 text-foreground hover:bg-secondary/70"
-              }`}
+                }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -203,11 +202,10 @@ export const SkillsSection = () => {
                         <h3 className="font-semibold text-lg group-hover:text-primary transition-colors">
                           {skill.name}
                         </h3>
-                        <span className={`text-sm font-medium px-2 py-1 rounded-full ${
-                          skill.level > 75 ? 'bg-emerald-500/10 text-emerald-500' : 
-                          skill.level > 50 ? 'bg-amber-500/10 text-amber-500' : 
-                          'bg-pink-500/10 text-pink-500'
-                        }`}>
+                        <span className={`text-sm font-medium px-2 py-1 rounded-full ${skill.level > 75 ? 'bg-emerald-500/10 text-emerald-500' :
+                            skill.level > 50 ? 'bg-amber-500/10 text-amber-500' :
+                              'bg-pink-500/10 text-pink-500'
+                          }`}>
                           {skill.level}%
                         </span>
                       </div>
