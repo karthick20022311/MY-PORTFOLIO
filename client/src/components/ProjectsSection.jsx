@@ -6,32 +6,32 @@ const projects = [
   {
     id: 8,
     title: "Data Driven Stock Analysis",
-    category: "AI SaaS ",
-    description: "AI saas webapp build with PERN stack and Intigrated Gemini . OPEN SOURCE ",
-    image: "/projects/project8.png",
+    category: "FinTech",
+    description: "Interactive financial analytics dashboard that performs data-driven stock market analysis using historical data, visualization, and forecasting.",
+    image: "/projects/project8.jpg",
     video: "/projects/videos/genaxix-demo.mp4",
-    tags: ["PERN Stack", "Clerk Auth", "Google Gemini", "Clerk Billing", "OPEN SOURCE"],
+    tags: ["Python", "Streamlit", "Pandas", "Matplotlib", "yfinance", "Data Visualization"],
     demoUrl: "https://data-driven-financial-analytics-ge7t32euizcdmfb5zdhqhu.streamlit.app/",
     githubUrl: "https://github.com/karthick20022311/data-driven-financial-analytics",
     featured: true,
-    accentColor: "from-emerald-500 to-teal-600",
+    accentColor: "from-blue-500 to-indigo-600",
     status: "Live",
-    highlights: ["Image Generation", "Article writer", "Blog Writter", "Resume Reviewer"]
+    highlights: ["Historical stock tracking", "Interactive data visualization", "Performance analytics", "Smarter portfolio building"]
   },
   {
     id: 7,
-    title: "imdb-2024-data-scraping-visualization",
-    category: "Healthcare SaaS",
-    description: "Hospital management platform with multi-role access, patient tracking, and billing systems.",
-    image: "/images/imdb-project.png",
+    title: "IMDb 2024 Data Scraping & Visualization",
+    category: "Data Science",
+    description: "Python web scraper and interactive dashboard that extracts 2024 IMDb movie data to analyze trends, ratings, and genres.",
+    image: "/projects/project7.jpg",
     video: "/projects/videos/nauracare-demo.mp4",
-    tags: ["React", "Node.js", "MongoDB", "Stripe", "JWT Auth"],
+    tags: ["Python", "BeautifulSoup", "Pandas", "Matplotlib", "Seaborn", "Streamlit"],
     demoUrl: "https://imdb-2024-data-scraping-visualization-nqp2qn62xzuwwysdfx7wsy.streamlit.app/",
     githubUrl: "https://github.com/karthick20022311/IMDB-2024-Data-Scraping-Visualization",
     featured: true,
-    accentColor: "from-emerald-500 to-teal-600",
+    accentColor: "from-amber-500 to-yellow-600",
     status: "Live",
-    highlights: ["Multi-role system", "Patient management", "Payment integration"]
+    highlights: ["Automated web scraping", "Data cleaning & processing", "Interactive genre/rating charts", "Trend visualization"]
   },
   {
     id: 1,
@@ -128,7 +128,8 @@ const categoryColors = {
   "Artificial Intelligence": "from-amber-500/20 to-orange-600/20 text-amber-600 border-amber-500/30",
   "FinTech": "from-rose-500/20 to-pink-600/20 text-rose-600 border-rose-500/30",
   "Food Tech": "from-violet-500/20 to-purple-600/20 text-violet-600 border-violet-500/30",
-  "HR Tech": "from-orange-500/20 to-red-600/20 text-orange-600 border-orange-500/30"
+  "HR Tech": "from-orange-500/20 to-red-600/20 text-orange-600 border-orange-500/30",
+  "Data Science": "from-blue-500/20 to-indigo-600/20 text-blue-600 border-blue-500/30"
 };
 
 export const ProjectsSection = () => {
