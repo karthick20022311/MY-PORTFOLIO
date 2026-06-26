@@ -14,7 +14,7 @@ export const HeroSection = () => {
     "const developer = new AIML Engineer({",
     "  name: 'Karthick',",
     "  stack: ['MACHINE LEARNING', 'COMPUTER VISION', 'PYTHON', 'SQL', 'TENSORFLOW', 'PYTORCH', 'CNN','LLM'],",
-    "  focus: 'Building scalable web applications',",
+    "  focus: 'Building scalable AIML Models',",
     "  status: 'Open to new opportunities'",
     "});",
     "",
